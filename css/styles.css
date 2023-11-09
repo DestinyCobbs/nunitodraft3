@@ -1,0 +1,297 @@
+html {
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.fontFam {
+    font-family: 'Nunito', sans-serif;
+/* Menu Br */
+}
+.menuBar {
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+    text-align: center;
+    z-index: 3;
+    height: fit-content;
+}
+ul {
+   padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 30px;
+
+}
+.logo { 
+    color: rgb(243, 136, 170);
+    font-size: 30px;
+    font-weight: bold ;
+}
+/* Title */
+
+.recTitle {
+    background-color: rgb(161, 138, 192);
+    width: 100%;
+    height: 600px;
+    z-index: 2;
+  
+
+    text-align: center;
+    color: rgb(241,242,242);
+    padding: 250px;
+    font-size: 50px;
+}
+
+/* Introduction */
+
+.introTitle{
+    font-size: 30px;
+    position: relative;
+    left: 530px;
+    top: 120px;
+    z-index: 1;
+}
+
+.circleBeg{
+    height: 950px;
+    width: 1000px;
+    background-color: rgb(243, 136, 170);
+    border-radius:50%;
+    opacity:54%;
+    position: relative;
+    z-index: -1;
+    left: -430px;
+    top: -70px;
+}
+
+.introParagraphRec {
+    width: 100%;
+    height: fit-content;
+    border: 7pt solid white;
+    background-color: rgb(225,243,249);
+    border-radius: 25px;
+    position: relative;
+    padding: 35px;
+    left: 550px;
+    top: 150px;
+    z-index: 1;
+
+   text-align: justify ;
+}
+
+.recButton{
+
+    width: 100%;
+    height: fit-content;
+    background-color:rgb(161, 138, 192);
+    border-radius: 25px;
+    position: relative;
+    padding: 20px;
+    left: 1100px ;
+    top: 230px;
+    z-index: 1;
+
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Charcters */
+.charcterSec{
+    background-color: rgb(161, 138, 192);
+    width: 100%;
+    height: 550px;
+    z-index: 2;
+   
+}
+
+.chracterTitle{
+    font-size: 30px;
+    position: relative;
+   
+    left: 100px;
+    top: 50px;
+    z-index: 1;
+}
+
+.charcters {
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 65px;
+
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.weightRe{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.weightCharcters {
+  
+   
+    border-radius: 10px;
+
+    color: rgb(243, 136, 170);
+    font-size: 14px;
+   
+    padding: 10px;
+    margin: 10px;
+    
+}
+.charactergrid{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+    border: 2px solid rgb(161, 138, 192);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*  Display */
+
+.displayTitle{
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 530px;
+    top: 120px;
+    z-index: 1;
+}
+
+.circlemiddle{
+    height: 800px;
+    width: 800px;
+    background-color: rgb(243, 136, 170);
+    border-radius:50%;
+    opacity:54%;
+    position: relative;
+    z-index: -1;
+    left: 600px;
+    top: -70px;
+}
+
+.displytext1 {
+    position: relative;
+    left: 10px;
+    top: 120px;
+    
+    font-size: 200px;
+
+}
+
+/* Body Text */
+
+.BodyTextTitle{
+    font-size: 25px;
+  padding: 20px;
+  margin: 10px;
+  
+
+}
+.BodyTextTitle{
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  
+
+}
+
+.bodyTextSec{
+    background-color:white;
+    width: 100%; 
+    height: 800pxpx; 
+    border: 35px solid rgb(161, 138, 192);
+    position: relative;
+    align-content: center;
+   
+}
+
+
+.bodyText1 {
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+.bodyText2 {
+    font-size: 14px;
+    color: rgb(243, 136, 170);
+    font-style: italic;
+    margin: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.bodyText3 {
+    font-size: 19px;
+    padding: 20px;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin: 20px;
+    
+}
+.bodygrid{
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    gap: 20px;
+
+}
+
+/* EXPERIMENT */
+
+.expertitle{
+   
+        font-size: 30px;
+        position: relative;
+        left: 530px;
+        top: 120px;
+        z-index: 1;
+}
+
+.sentence{
+    font-size: 40px;
+    position: relative;
+    left: 730px;
+    top: 150px;
+    font-weight: 400;
+}
+
+.beautiful{
+    font-weight:700 ;
+    color: rgb(243, 136, 170);
+}
+
+
+.expensive{
+    font-weight:300 ;
+    color: rgb(161, 138, 192);
+    border: white 5pt;
+}
